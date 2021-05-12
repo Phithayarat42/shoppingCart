@@ -44,6 +44,12 @@ p{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding-left: 10px;
+}
 .col-2{
     flex-basis: 50%;
     min-width: 300px;
@@ -67,6 +73,18 @@ p{
     transition: background 0.5s;
 }
 .btn:hover{
+    background: #717e25;
+}
+.btn-cart{
+    display: inline-block;
+    background: #A42E21;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn-cart:hover{
     background: #717e25;
 }
 .header{
